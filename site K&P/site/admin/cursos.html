@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Painel Admin/Cursos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="../estilo.css" />
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed" rel="stylesheet">
+        <script src="https://cdn.ckeditor.com/4.9.1/standard/ckeditor.js"></script>
+    </head>
+    <body>
+    <header>    
+        <div class="top">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="pagina.html">Admin/Qi |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cursos.html">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Notícias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="usuarios.html">Usuários</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Sair</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+        
+    <div class="container">     
+        <br />
+        <h2>Cadastrar Cursos</h2>
+        <p>O foco do curso Técnico em Informática é o desenvolvimento de sistemas para diversas plataformas (web, dispositivos móveis, computadores pessoais). 
+            Tem por objetivo formar profissionais capazes de criar soluções que possam aumentar e melhorar a produtividade das organizações, utilizando para isso as diversas tecnologias que aprende ao longo do curso. Tem por finalidade formar um profissional dinâmico, proativo, independente, com capacidade para aprender a aprender, a ser, a conviver e a fazer.</p>
+      <div class="formularioa">
+            <form>
+                Cadastrar Curso<input type="text" name="nome" />
+                Capa do Curso <input type="file" name="imagem" />
+                Data do Cadastro <input type="date" name="data" />
+                Informações Gerais<textarea name="mensagem">  </textarea>
+                <script>
+			CKEDITOR.replace( 'mensagem' );
+		</script>
+                <input type="submit" value="Cadastrar">        
+                <br />
+                <br />
+            </form>
+      </div>  
+        
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Cadastrar Curso</th>
+      <th scope="col">Capa do Curso</th>
+      <th scope="col">Data do Curso</th>
+      <th scope="col">Mensagem:</th>
+      <th scope="col">Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+       <td>Mensagem:</td>
+       <td><button type="button" class="btn btn-primary">Editar</button>
+           <button type="button" class="btn btn-danger">Deletar</button>
+       </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+       <td>Mensagem:</td>
+       <td><button type="button" class="btn btn-primary">Editar</button>
+           <button type="button" class="btn btn-danger">Deletar</button></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+       <td>Mensagem:</td>
+       <td><button type="button" class="btn btn-primary">Editar</button>
+           <button type="button" class="btn btn-danger">Deletar</button></td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+       <td>Mensagem</td>
+       <td><button type="button" class="btn btn-primary">Editar</button>
+           <button type="button" class="btn btn-danger">Deletar</button></td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Mark</td>
+      <td>Mark</td>
+      <td>@mdo</td>
+       <td>Mensagem</td>
+       <td><button type="button" class="btn btn-primary">Editar</button>
+           <button type="button" class="btn btn-danger">Deletar</button></td>
+    </tr>
+  </tbody>
+</table>
+    </div>    
+        
+    <div id="rodape">
+            <p>Alunos da tarde do MédioTec CKC</p>
+    </div>   
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    </body>
+</html>

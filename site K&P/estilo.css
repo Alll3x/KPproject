@@ -1,0 +1,128 @@
+body
+{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+	
+}
+# menu{
+	color: #ffffff;
+}
+h1
+{
+    color: #000000;
+}
+.top
+{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+}
+.nav-link
+{
+    color: #ffffff;
+    font-weight: 700;
+}
+a:hover
+{
+    color: #9999ff;
+}
+.red
+{
+    width: 100%;
+    height: 50px;
+    background-color: red; 
+}
+.red a:hover
+{
+    color: #ffff33;
+}
+.bg-light
+{
+    background-color: #ffffff;
+}
+h2
+{
+    color: #008000;
+}
+p
+{
+    color: #000000;
+    text-align: justify;
+}
+#rodape
+{
+    background-color: #1C1C1C;
+    height: 190px;
+    width: 100%;
+    margin: auto;
+    clear: both;
+	
+}
+#rodapeal
+{
+    width: 80%;
+    margin-left: 10%;
+    clear: both;
+	
+}
+#rodape h1
+{
+    color: #008000;
+   
+}
+#rodape p
+{
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+@media(max-width:768px)
+{
+   .top
+   {
+       height: 85px;
+   }
+   .red
+   {
+       height: 115px;
+   }
+}
+
+input
+{
+    width: 100%;
+    padding: 5px;
+    border-radius: 1px;
+}
+textarea
+{
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+}
+select
+{
+    width: 100%;
+    padding: 5px;
+}
+#formulario
+{
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+.formularioa
+{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.login a{
+    float: right;
+    color: #ffffff;
+    margin-top: 8px;
+    font-weight: bold;
+        text-decoration: none;
+}
+.login a:hover{
+    color: #9999ff;
+}
